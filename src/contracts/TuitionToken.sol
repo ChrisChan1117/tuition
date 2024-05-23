@@ -7,7 +7,7 @@ import './libs/Ownable.sol';
 contract TuitionToken is BEP20("TUITION", "TUT"){
     uint rate = 1000;       // correspond to token price   0.001 bnb
 
-    uint256 public tokensSold;
+    uint256 public tokensSold; //token which is by sold
 
     event Sell(address _buyer, uint256 _amount);
 
